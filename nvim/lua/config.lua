@@ -11,4 +11,8 @@ vim.g.maplocalleader = "\\"
 
 vim.opt.nu = true
 vim.opt.rnu = true
+
 vim.opt.mouse = "a"
+
+vim.opt.wildmenu = true
+vim.opt.wildmode = "list:longest,list:full" -- don't insert, show options
